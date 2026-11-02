@@ -1,0 +1,34 @@
+# Local credentials (copy wifi_secrets.example.h -> wifi_secrets.h)
+**/wifi_secrets.h
+
+# STM32CubeIDE build output and artifacts
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+*.su
+*.cyclo
+*.res
+
+# STM32CubeIDE workspace metadata (user specific)
+.settings/
+.metadata/
+
+# Python leftovers
+__pycache__/
+*.pyc
+
+# Reports and Office temp files
+*.docx
+~$*
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
